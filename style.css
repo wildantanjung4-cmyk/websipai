@@ -1,3 +1,121 @@
+/* Slider Section */
+.slider-section {
+  max-width: 800px;
+  margin: 48px auto 32px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(200,0,0,0.10);
+  padding: 36px 24px 32px 24px;
+}
+.slider-title {
+  text-align: center;
+  color: #a80000;
+  margin-bottom: 24px;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(.77,0,.18,1);
+}
+.slide {
+  min-width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(200,0,0,0.08);
+  display: none;
+}
+.slide.active {
+  opacity: 1;
+  display: block;
+}
+.slider-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 18px;
+}
+.slider-btn {
+  background: #a80000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(200,0,0,0.10);
+  transition: background 0.2s, transform 0.2s;
+}
+.slider-btn:hover {
+  background: #c80000;
+  transform: scale(1.08);
+}
+/* Media Sosial Section */
+.medsos-section {
+  max-width: 900px;
+  margin: 48px auto 32px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(200,0,0,0.10);
+  padding: 36px 24px 32px 24px;
+}
+.medsos-title {
+  text-align: center;
+  color: #a80000;
+  margin-bottom: 32px;
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+}
+.medsos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+}
+.medsos-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #fff2f2 0%, #f8eaea 100%);
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(200,0,0,0.07);
+  padding: 24px 32px 18px 32px;
+  min-width: 180px;
+  max-width: 220px;
+  text-decoration: none;
+  color: #a80000;
+  font-weight: 600;
+  font-size: 1.08rem;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.medsos-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 6px 18px rgba(200,0,0,0.13);
+  background: linear-gradient(135deg, #fff6f6 0%, #ffeaea 100%);
+}
+.medsos-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 14px;
+  filter: drop-shadow(0 2px 6px rgba(200,0,0,0.10));
+}
+/* Judul halaman konten agar tidak ikut sticky */
+.page-title {
+  background: #c00c0c;
+  color: #a80000;
+  text-align: center;
+  padding: 32px 0 16px 0;
+  position: static;
+  z-index: auto;
+  box-shadow: none;
+}
 /* Media Sosial Section */
 .medsos-section {
   max-width: 900px;
@@ -656,6 +774,7 @@ body {
 .btn:hover {
   background: rgba(0,0,0,0.8);
 }
+
 
 
 
