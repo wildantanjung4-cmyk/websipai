@@ -125,8 +125,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var grid = document.getElementById('berita-terbaru-grid');
   if (grid && typeof beritaList !== 'undefined') {
     let html = '';
-    // Tampilkan maksimal 2 berita terbaru
-    beritaList.slice(0,2).forEach(function(berita) {
+    // Tampilkan maksimal 4 berita terbaru
+    beritaList.slice(0,4).forEach(function(berita) {
       html += `
         <div class="berita-card">
           <img src="${berita.gambar}" alt="Gambar Berita" class="berita-img">
@@ -145,6 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 </body>
 </html>
+
 
 
 
