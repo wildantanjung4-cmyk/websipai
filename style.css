@@ -1,6 +1,6 @@
 /* Judul halaman konten agar tidak ikut sticky */
 .page-title {
-  background: #fff;
+  background: #a80000;
   color: #a80000;
   text-align: center;
   padding: 32px 0 16px 0;
@@ -597,3 +597,4 @@ nav ul li a:hover {
     margin: 20px 0;
   }
 }
+
