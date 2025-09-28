@@ -26,3 +26,23 @@ function openNavbarSecond() {
 function closeNavbarSecond() {
     $('.navbar-second').slideUp(300);
 }
+//Slide Etika Mahasiswa//
+const slides = document.querySelector('.slides');
+const images = document.querySelectorAll('.slides img');
+const prev = document.getElementById('prev');
+const next = document.getElementById('next');
+
+let index = 0;
+
+function showSlide(i) {
+  index += i;
+  if (index < 0) index = images.length - 1;
+  if (index >= images.length) index = 0;
+  slides.style.transform = `translateX(${-index * 100}%)`;
+}
+
+prev.addEventListener('click', () => showSlide(-1));
+next.addEventListener('click', () => showSlide(1));
+
+// Auto play setiap 5 detik
+setInterval(() => showSlide(1), 5000);
