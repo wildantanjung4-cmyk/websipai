@@ -4,7 +4,7 @@ const beritaData = [
     id: 1,
     tanggal: "16 Juli 2025",
     judul: "Kegiatan Visitasi Akreditasi Prodi PAI Oleh BAN-PT",
-    gambar: "../Berita/asset/Akreditasi PAI.png",
+    gambar: "https://irw51owxi5vo3sjd.public.blob.vercel-storage.com/asset-berita/Akreditasi%20PAI.png",
     deskripsi: "Prodi Pendidikan Agama Islam UIN Fatmawati Sukarno Bengkulu berhasil meraih akreditasi A dari BAN-PT. Capaian ini menjadi bukti komitmen prodi dalam menjaga mutu pendidikan dan pelayanan kepada mahasiswa.",
     isi: `<p>Prodi Pendidikan Agama Islam UIN Fatmawati Sukarno Bengkulu berhasil meraih akreditasi A dari BAN-PT. Capaian ini menjadi bukti komitmen prodi dalam menjaga mutu pendidikan dan pelayanan kepada mahasiswa. Kegiatan visitasi dilakukan oleh asesor BAN-PT pada tanggal 15-16 Juli 2025 dengan berbagai agenda penilaian dan wawancara bersama dosen, mahasiswa, dan alumni.</p>`
   },
@@ -25,3 +25,4 @@ const beritaData = [
     isi: `<p>Mahasiswa PAI melaksanakan pengabdian masyarakat di desa binaan dengan mengajar dan berbagi inspirasi kepada anak-anak sekolah dasar. Kegiatan ini bertujuan untuk meningkatkan motivasi belajar dan memberikan pengalaman langsung kepada mahasiswa dalam pengabdian masyarakat.</p>`
   }
 ];
+
