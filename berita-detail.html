@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Berita</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <a href="berita.html">&larr; Kembali ke Daftar Berita</a>
+    <div id="berita-detail"></div>
+    <script src="../berita-data.js"></script>
+    <script>
+        // Ambil parameter ID dari URL
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+        const beritaId = getQueryParam('id');
+        // Asumsikan beritaData adalah array dari berita-data.js
+        const berita = beritaData.find(b => b.id == beritaId);
+        const container = document.getElementById('berita-detail');
+        if (berita) {
+            container.innerHTML = `
+                <h2>${berita.judul}</h2>
+                <p><em>${berita.tanggal}</em></p>
+                <img src="${berita.gambar}" alt="${berita.judul}" style="max-width:300px;">
+                <div>${berita.isi}</div>
+            `;
+        } else {
+            container.innerHTML = '<p>Berita tidak ditemukan.</p>';
+        }
+    </script>
+</body>
+</html>
