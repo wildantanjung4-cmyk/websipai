@@ -12,7 +12,7 @@ const beritaList = [
     tanggal: "20 September 2025",
     judul: "Kuliah Tamu Prodi Pendidikan Agama Islam",
     gambar: "https://irw51owxi5vo3sjd.public.blob.vercel-storage.com/asset-berita/Screenshot%202025-09-18%20142336.png",
-    deskripsi: "Program Studi Pendidikan Agama Islam sukses menyelenggarakan kuliah tamu dengan tema “Revitalisasi Profesi Guru: Menjawab Tantangan dan Mengubah Paradigma Negatif”. Kegiatan ini menghadirkan narasumber yang berkompeten di bidang pendidikan, dengan tujuan memperluas wawasan mahasiswa sekaligus memberikan inspirasi tentang peran strategis guru di era perubahan.Acara yang berlangsung penuh antusiasme ini tidak hanya memberikan pemahaman teoretis, tetapi juga menggugah semangat mahasiswa untuk menyiapkan diri sebagai calon pendidik profesional. Melalui kuliah tamu ini, Prodi PAI berkomitmen menghadirkan pembelajaran yang relevan dengan kebutuhan zaman sekaligus menumbuhkan kesadaran tentang pentingnya penguatan karakter guru sebagai agen perubahan.",
+    deskripsi: "Program Studi Pendidikan Agama Islam sukses menyelenggarakan kuliah tamu dengan tema “Revitalisasi Profesi Guru: Menjawab Tantangan dan Mengubah Paradigma Negatif”. Kegiatan ini menghadirkan narasumber yang berkompeten di bidang pendidikan, dengan tujuan memperluas wawasan mahasiswa sekaligus memberikan inspirasi tentang peran strategis guru di era perubahan.",
     link: "#"
   },
   {
@@ -23,6 +23,7 @@ const beritaList = [
     link: "#"
   }
 ];
+
 
 
 
