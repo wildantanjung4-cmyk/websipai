@@ -1,3 +1,56 @@
+/* ===== Responsive Design ===== */
+@media (max-width: 1024px) {
+  .berita-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .slider-section, .medsos-section {
+    padding: 18px 8px 18px 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.1rem;
+    gap: 8px;
+  }
+  .berita-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .slider-section, .medsos-section {
+    padding: 10px 2vw;
+  }
+  .medsos-card {
+    min-width: 120px;
+    max-width: 100%;
+    padding: 16px 8px 12px 8px;
+    font-size: 1rem;
+  }
+  .berita-img {
+    height: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-title, .berita-title, .medsos-title {
+    font-size: 1.2rem;
+  }
+  .berita-card-title {
+    font-size: 1rem;
+  }
+  .berita-img {
+    height: 90px;
+  }
+  .slider-section, .medsos-section {
+    padding: 4px 1vw;
+  }
+  nav ul {
+    font-size: 0.98rem;
+  }
+
 html, body {
   max-width: 100vw;
   overflow-x: hidden;
@@ -728,6 +781,7 @@ nav ul li a:hover {
     margin: 20px 0;
   }
 }
+
 
 
 
