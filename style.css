@@ -604,8 +604,8 @@ nav ul li a:hover {
 
 /* Aturan ukuran logo kampus di navigasi */
 .logo-kampus {
-  height: 80px;
-  width: 160px;
+  height: 120px;
+  width: 360px;
   object-fit: contain;
   vertical-align: left;
   margin-right: 10px;
@@ -728,6 +728,7 @@ nav ul li a:hover {
     margin: 20px 0;
   }
 }
+
 
 
 
