@@ -608,8 +608,8 @@ nav ul li a:hover {
   width: 240px;
   object-fit: contain;
   vertical-align: left;
-  margin-right: 10px;
-  border-radius: 10px;
+  margin-right: 3px;
+  border-radius: 3px;
   box-shadow: 0 2px 8px rgba(200,0,0,0.12);
   transition: box-shadow 0.2s, transform 0.2s;
 }
@@ -728,6 +728,7 @@ nav ul li a:hover {
     margin: 20px 0;
   }
 }
+
 
 
 
