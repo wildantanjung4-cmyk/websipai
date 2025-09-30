@@ -534,7 +534,7 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   letter-spacing: 1px;
   padding: 10px 18px;
   border-radius: 8px;
@@ -743,6 +743,7 @@ nav ul li a:hover {
     margin: 20px 0;
   }
 }
+
 
 
 
