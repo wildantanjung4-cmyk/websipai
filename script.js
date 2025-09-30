@@ -1,3 +1,11 @@
+// Toggle menu eksternal di header shadow (mobile)
+function toggleHeaderMenu() {
+    var menu = document.getElementById('headerMenuEksternal');
+    if (menu) {
+        menu.classList.toggle('show');
+    }
+}
+
 // Slider Etika Mahasiswa
 document.addEventListener('DOMContentLoaded', function() {
     const slides = document.querySelectorAll('.slide');
@@ -77,4 +85,5 @@ next.addEventListener('click', () => showSlide(1));
 
 // Auto play setiap 5 detik
 setInterval(() => showSlide(1), 5000);
+
 
