@@ -550,6 +550,11 @@ nav ul li a:hover {
   padding: 80px;
   background: #f8f6f6;
 }
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 20px;
+  }
+}
 
 .berita {
   padding: 20px;
@@ -625,11 +630,6 @@ nav ul li a:hover {
   }
   nav ul {
     flex-wrap: wrap;
-  }
-}
-@media (max-width: 768px) {
-  .hero {
-    padding: 40px 20px;
   }
 }
 
@@ -743,6 +743,7 @@ nav ul li a:hover {
     margin: 20px 0;
   }
 }
+
 
 
 
