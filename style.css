@@ -617,6 +617,21 @@ nav ul li a:hover {
   box-shadow: 0 4px 16px rgba(200,0,0,0.18);
   transform: scale(1.07);
 }
+@media (max-width: 768px) {
+  .logo-kampus {
+    height: 60px;
+    width: auto;
+    margin-right: 10px;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 20px;
+  }
+}
 
 /* Tambahan CSS untuk dropdown menu */
 .dropdown {
@@ -728,6 +743,7 @@ nav ul li a:hover {
     margin: 20px 0;
   }
 }
+
 
 
 
