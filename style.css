@@ -743,6 +743,24 @@ nav ul li a:hover {
     margin: 20px 0;
   }
 }
+.footer-maps {
+  flex: 1 1 300px;
+  margin: 10px;
+}
+
+.footer-maps h4 {
+  color: #fff;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 6px;
+}
+
+.footer-maps iframe {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(200,0,0,0.3);
+  width: 100%;
+  height: 200px;
+}
 
 
 
