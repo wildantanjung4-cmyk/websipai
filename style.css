@@ -1,3 +1,87 @@
+/* Skripsi Guide Card Styles */
+.skripsi-guide-section {
+  max-width: 700px;
+  margin: 38px auto 32px auto;
+  padding: 0 16px;
+}
+.skripsi-guide-card {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(120deg, #eaf3ff 0%, #f8faff 60%, #eaf3ff 100%);
+  border-radius: 22px;
+  box-shadow: 0 6px 32px rgba(30,95,168,0.10);
+  padding: 32px 28px 32px 28px;
+  margin-bottom: 18px;
+  transition: box-shadow 0.18s, transform 0.18s;
+  position: relative;
+  overflow: hidden;
+}
+.skripsi-guide-card:hover {
+  box-shadow: 0 12px 40px rgba(30,95,168,0.18);
+  transform: translateY(-4px) scale(1.02);
+}
+.skripsi-guide-icon {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #2d7cff 60%, #aee2ff 100%);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 28px;
+  box-shadow: 0 2px 12px rgba(30,95,168,0.10);
+  animation: skripsiGuideIconPop 1.2s cubic-bezier(.77,0,.18,1);
+}
+@keyframes skripsiGuideIconPop {
+  0% { transform: scale(0.7); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.skripsi-guide-content {
+  flex: 1;
+}
+.skripsi-guide-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #1e5fa8;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+.skripsi-guide-desc {
+  color: #2d3a4a;
+  font-size: 1.08rem;
+  margin-bottom: 18px;
+}
+.skripsi-guide-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #2d7cff 70%, #1e5fa8 100%);
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.08rem;
+  box-shadow: 0 2px 8px rgba(30,95,168,0.10);
+  transition: background 0.18s, transform 0.18s;
+  letter-spacing: 0.5px;
+}
+.skripsi-guide-btn:hover {
+  background: linear-gradient(90deg, #1e5fa8 70%, #2d7cff 100%);
+  color: #fff;
+  transform: scale(1.06);
+}
+@media (max-width: 600px) {
+  .skripsi-guide-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 12px 22px 12px;
+  }
+  .skripsi-guide-icon {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
 /* Menu eksternal di header bayangan */
 .header-menu-eksternal {
   display: flex;
@@ -821,6 +905,7 @@ nav ul li a:hover {
   width: 100%;
   height: 200px;
 }
+
 
 
 
