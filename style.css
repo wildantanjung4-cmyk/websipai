@@ -646,8 +646,7 @@ body.flowchart-page {
   text-align: center;
 }
 body {
-  font-family: Nunito Sans;
-  src: url('../fonts/NunitoSans-Regular.ttf');
+  font-family: Arial;
   margin: 0;
   padding: 0;
 }
@@ -816,7 +815,7 @@ nav ul li a:hover {
   background-color: #990303;
   color: #ffffff;
   padding: 40px 20px 20px 20px;
-  font-family: Nunito Sans;
+  font-family: Arial;
 }
 
 .footer-container {
@@ -906,6 +905,7 @@ nav ul li a:hover {
   width: 100%;
   height: 200px;
 }
+
 
 
 
