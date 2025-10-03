@@ -16,13 +16,14 @@ const beritaList = [
     link: "https://ftt.uinfasbengkulu.ac.id/prodi-pendidikan-agama-islam-uin-fatmawati-sukarno-bengkulu-jalani-asesmen-lapangan-akreditasi/"
   },
   {
-    tanggal: "10 September 2025",
-    judul: "Pengabdian Masyarakat Mahasiswa PAI",
-    gambar: "https://via.placeholder.com/400x200?text=Berita+3",
-    deskripsi: "Mahasiswa PAI melaksanakan pengabdian masyarakat di desa binaan, mengajar dan berbagi inspirasi kepada anak-anak sekolah dasar.",
+    tanggal: "02 Oktober 2025",
+    judul: "Pembekalan Program Pesantrenisasi Mahasiswa PAI UIN Fatmawati Sukarno Bengkulu",
+    gambar: "https://irw51owxi5vo3sjd.public.blob.vercel-storage.com/asset-berita/Pesantrenisasi%20PAI%20UINFAS/WhatsApp%20Image%202025-10-02%20at%2015.40.07.jpeg",
+    deskripsi: "Program Studi Pendidikan Agama Islam (PAI) UIN Fatmawati Sukarno Bengkulu kembali menunjukkan komitmennya dalam penguatan karakter dan nilai-nilai keislaman melalui kegiatan Pembekalan Program Pesantrenisasi bagi mahasiswa baru. Kegiatan ini dirancang untuk membekali mahasiswa dengan pemahaman dasar mengenai kehidupan pesantren, nilai-nilai keislaman, serta etika keilmuan yang akan menjadi fondasi selama menempuh pendidikan di lingkungan kampus berbasis keislaman.",
     link: "https://ftt.uinfasbengkulu.ac.id/prodi-pendidikan-agama-islam-uin-fatmawati-sukarno-bengkulu-jalani-asesmen-lapangan-akreditasi/"
   }
 ];
+
 
 
 
