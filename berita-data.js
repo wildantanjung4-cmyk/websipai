@@ -13,7 +13,7 @@ const beritaList = [
     judul: "Kuliah Tamu Prodi Pendidikan Agama Islam",
     gambar: "https://irw51owxi5vo3sjd.public.blob.vercel-storage.com/asset-berita/Screenshot%202025-09-18%20142336.png",
     deskripsi: "Program Studi Pendidikan Agama Islam sukses menyelenggarakan kuliah tamu dengan tema “Revitalisasi Profesi Guru: Menjawab Tantangan dan Mengubah Paradigma Negatif”.",
-    link: "https://ftt.uinfasbengkulu.ac.id/prodi-pendidikan-agama-islam-uin-fatmawati-sukarno-bengkulu-jalani-asesmen-lapangan-akreditasi/"
+    link: "kuliah-tamu.html"
   },
   {
     tanggal: "02 Oktober 2025",
@@ -23,6 +23,7 @@ const beritaList = [
     link: "https://ftt.uinfasbengkulu.ac.id/prodi-pendidikan-agama-islam-uin-fatmawati-sukarno-bengkulu-jalani-asesmen-lapangan-akreditasi/"
   }
 ];
+
 
 
 
