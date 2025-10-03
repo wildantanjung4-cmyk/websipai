@@ -977,6 +977,15 @@ body {
   flex-wrap: wrap;
   gap: 20px;
 }
+.row {
+  display: flex;
+  flex-direction: column; /* bikin kolom jadi vertikal */
+}
+
+.col-md-8, .col-md-4 {
+  flex: 1 1 100%; /* biar full width */
+}
+
 
 /* Kolom teks */
 .col-md-8 {
@@ -1012,6 +1021,7 @@ p {
     font-size: 22px;
   }
 }
+
 
 
 
