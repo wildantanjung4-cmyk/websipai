@@ -20,9 +20,10 @@ const beritaList = [
     judul: "Pembekalan Program Pesantrenisasi Mahasiswa PAI UIN Fatmawati Sukarno Bengkulu",
     gambar: "https://irw51owxi5vo3sjd.public.blob.vercel-storage.com/asset-berita/Pesantrenisasi%20PAI%20UINFAS/WhatsApp%20Image%202025-10-02%20at%2015.40.07.jpeg",
     deskripsi: "Program Studi Pendidikan Agama Islam (PAI) UIN Fatmawati Sukarno Bengkulu mengadakan kegiatan Pembekalan Program Pesantrenisasi bagi mahasiswa baru sebagai upaya menanamkan nilai-nilai keislaman sejak dini.",
-    link: "https://ftt.uinfasbengkulu.ac.id/prodi-pendidikan-agama-islam-uin-fatmawati-sukarno-bengkulu-jalani-asesmen-lapangan-akreditasi/"
+    link: "pembekalan-pesantrenisasi.hmtl"
   }
 ];
+
 
 
 
