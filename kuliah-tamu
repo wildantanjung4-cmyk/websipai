@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+        <!--To prevent most search engine web crawlers from indexing a page on your site-->
+    <meta name="robots" content="index follow all">
+    
+        <meta name="csrf-token" content="9zDO0bR6PhXj9QM5cpsb1JgX5HCM3zRASf3INZSr" />
+    <title>Prodi Pendidikan Agama Islam</title>
+    <link rel="shortcut icon" href="https://pai.fit.uinsaid.ac.id/files/icon-1678678276.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <link rel="stylesheet" type="text/css" href="https://pai.fit.uinsaid.ac.id/css/style.css?ver=1759478623">
+        <meta name="description" content="Piety and Professional"/>
+        <meta name="author" content="Prodi Pendidikan Agama Islam" />
+        <meta name="copyright" content="Prodi Pendidikan Agama Islam" />
+        <meta name="application-name" content="Prodi Pendidikan Agama Islam" />
+
+        <meta property="og:title" content="International Public Lecture and Welcoming Event for New PAI Students at UIN Raden Mas Said Surakarta" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://pai.fit.uinsaid.ac.id/files/post/cover/international-public-lecture-and-welcoming-event-f-1757345524.jpeg" />
+        <meta property="og:image:alt" content="International Public Lecture and Welcoming Event for New PAI Students at UIN Raden Mas Said Surakarta" />
+        <meta property="og:image:width" content="500" />
+        <meta property="og:image:height" content="500" />
+        <meta property="og:url" content="https://pai.fit.uinsaid.ac.id/id/international-public-lecture-and-welcoming-event-for-new-pai-students-at-uin-raden-mas-said-surakarta" />
+        <meta property="og:description" content="Surakarta &amp;ndash; The Department of Islamic Education (PAI), Faculty of Tarbiyah (FIT) UIN Raden Mas Said Surakarta, in collaboration with HMPS PAI and FOSTABA, successfully held the International Pub..." />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="International Public Lecture and Welcoming Event for New PAI Students at UIN Raden Mas Said Surakarta" />
+        <meta name="twitter:description" content="Surakarta &amp;ndash; The Department of Islamic Education (PAI), Faculty of Tarbiyah (FIT) UIN Raden Mas Said Surakarta, in collaboration with HMPS PAI and FOSTABA, successfully held the International Pub..." />
+        <meta name="twitter:image" content="https://pai.fit.uinsaid.ac.id/files/post/cover/international-public-lecture-and-welcoming-event-f-1757345524.jpeg" />
+</head>
+
+<body>
+    <div class="navbar-second">
+        <div class="link-container">
+                        <a class="link" href="https://pai.fit.uinsaid.ac.id/id/berita">Berita</a>
+                        <a class="link" href="https://fit.uinsaid.ac.id/">WebFIT</a>
+                        <a class="link" href="https://uinsaid.ac.id/id">UINSAID</a>
+                        <a class="link" href="https://pai.fit.uinsaid.ac.id/id/beasiswa-3">Beasiswa</a>
+                        <a class="link" href="https://www.uinsaid.ac.id/id/spmb">Pendaftaran</a>
+                        <a class="link" href="https://siakad.uinsaid.ac.id/">SIAKAD</a>
+                        <a class="link" href="https://pai.fit.uinsaid.ac.id/id/rubrik-1">Rubrik</a>
+                        <a class="link" href="https://ejournal.uinsaid.ac.id/index.php/at-tarbawi">Jurnal Tarbawi</a>
+                        <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSejVg2SjzC1fCpIx55uPGtl7Ylon3uuQcvbmN7rbeaPVTJ6qA/viewform">Tracer Alumni</a>
+                    </div>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="languange" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="d-flex align-items-center">
+                                        <img src="https://pai.fit.uinsaid.ac.id/assets/id.png" style="width: 20px; margin-right: 5px">Indonesia
+                                    </div>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="languange">
+                <a class="dropdown-item" href="https://pai.fit.uinsaid.ac.id/id"><img src="https://pai.fit.uinsaid.ac.id/assets/id.png"> Indonesia</a>
+                <a class="dropdown-item" href="https://pai.fit.uinsaid.ac.id/en"><img src="https://pai.fit.uinsaid.ac.id/assets/en.png"> English</a>
+                <a class="dropdown-item" href="https://pai.fit.uinsaid.ac.id/ar"><img src="https://pai.fit.uinsaid.ac.id/assets/ar.png"> Arabic</a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-main">
+        <div class="top">
+            <a class="navbar-brand shadow" href="https://pai.fit.uinsaid.ac.id">
+                <img src="https://pai.fit.uinsaid.ac.id/files/icon-1678678276.png" alt="Prodi Pendidikan Agama Islam">
+            </a>
+        </div>
+        <div class="scroll d-none">
+            <a class="navbar-brand" href="https://pai.fit.uinsaid.ac.id">
+                <img src="https://pai.fit.uinsaid.ac.id/files/logo-1678678285.png" alt="Prodi Pendidikan Agama Islam">
+            </a>
+        </div>
+        <div class="d-flex" style="padding: 11px 0;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation" onclick="closeNavbarSecond()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <button class="btn navbar-second-toggler" onclick="openNavbarSecond()">
+                <i class="fas fa-ellipsis-v"></i>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-main">
+            <ul class="navbar-nav">
+                                <li class="nav-item">
+                    <a class="nav-link" href="https://pai.fit.uinsaid.ac.id/id/profil">Profil</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" href="https://pai.fit.uinsaid.ac.id/id/akademik">Akademik</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" href="https://pai.fit.uinsaid.ac.id/id/kemahasiswaan">Kemahasiswaan</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" href="https://pai.fit.uinsaid.ac.id/id/kerjasama">Kerjasama</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" href="https://pai.fit.uinsaid.ac.id/id/mbkm">MBKM</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" href="https://pai.fit.uinsaid.ac.id/id/tri-dharma">Tri Dharma</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" href="https://pai.fit.uinsaid.ac.id/id/dokumen">Dokumen</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" href="https://pai.fit.uinsaid.ac.id/id/peraturan">Peraturan</a>
+                </li>
+                            </ul>
+            <form action="https://pai.fit.uinsaid.ac.id/id/pencarian" method="GET" accept-charset="utf-8" class="form-inline">
+                <input class="form-control search-input" type="search" name="keyword" placeholder="Pencarian" aria-label="Search" value="">
+                <i class="fas fa-search search-icon"></i>
+            </form>
+        </div>
+    </nav>
+    <div class="mt-87"></div>
+    
+    <div class="container">
+    <div class="detail-post">
+        <div class="bc">
+    <a href="https://pai.fit.uinsaid.ac.id">Beranda <i class="fas fa-chevron-right"></i></a>
+        <a href="https://pai.fit.uinsaid.ac.id/id/berita" >Berita <i class="fas fa-chevron-right"></i></a>
+        <a href="https://pai.fit.uinsaid.ac.id/id/international-public-lecture-and-welcoming-event-for-new-pai-students-at-uin-raden-mas-said-surakarta" class=active>International Public Lecture and Welcoming Event for New PAI Students at UIN Raden Mas Said Surakarta </i></a>
+    </div>        <span>08 September 2025</span>
+        <h1>International Public Lecture and Welcoming Event for New PAI Students at UIN Raden Mas Said Surakarta</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <p>Surakarta &ndash; The Department of Islamic Education (PAI), Faculty of Tarbiyah (FIT) UIN Raden Mas Said Surakarta, in collaboration with HMPS PAI and FOSTABA, successfully held the International Public Lecture and Welcoming Event for New PAI Students on Monday, September 8, 2025, at the 3rd Floor Rectorate Hall. The event, which ran from 07.00 to 12.00 WIB, was part of the 33rd Anniversary celebration of UIN Raden Mas Said Surakarta.</p>
+
+<p>The program began with the recitation of the Holy Qur&rsquo;an by Desi Ayu Ambarwati, followed by the singing of Indonesia Raya and the university&rsquo;s march. Opening remarks were delivered by Adimas Rizqon Agung Maskuri (Head of HMPS PAI), Drs. Suluri (Head of the Islamic Education Department), and Prof. Dr. H. Fauzi Muharrom, M.Ag. (Dean of FIT) officially opened the International Public Lecture by reciting <em>Basmallah</em>.</p>
+
+<p>In his speech, Prof. Dr. H. Fauzi Muharrom reminded students to excel both academically and non-academically, emphasizing: &ldquo;Strive to graduate on time!&rdquo; The event continued with a prayer led by Mr. M. Nur Kholis Al Amin, M.H.I., and a musical performance by Adillah Khoirun, a third-semester PAI student.</p>
+
+<p>The academic orientation session was then presented by Mr. Kholis Firmansyah, S.H.I., M.S.I. (Head of PAI Study Program), who explained essential academic matters including semester credits (SKS), academic advising, study plans (KRS), study results (KHS), PLP and KKN programs, as well as tips for graduating on time. Additional motivation was delivered by Drs. Suluri, followed by an introduction to TOSA and TOSE programs by Mr. M. Nur Kholis Al Amin, M.H.I. (Secretary of the Islamic Education Department).</p>
+
+<p>The core agenda was the International Public Lecture with the theme &ldquo;Multicultural Islamic Education.&rdquo; The first speaker, Mr. Mahmudulhassan, MA., Mss., from Bangladesh, highlighted that multicultural Islamic education is not a matter of choice but a necessity in today&rsquo;s era. He also introduced the Bangladeshi language to students, which sparked great enthusiasm. The second presentation was delivered by Dr. Hakiman, M.Pd., lecturer at PAI FIT, who discussed the concept of inclusive Islamic education. The session was moderated by Adinda Cici Novianti. The program concluded with the introduction of HMPS PAI to all new students.</p>
+
+<p>This activity provided valuable insights and strengthened the spirit of togetherness among new students. Through this event, students not only gained academic knowledge and international perspectives but also built motivation, confidence, and a sense of belonging as part of the big family of PAI FIT UIN Raden Mas Said Surakarta.</p>
+                                            </div>
+                        <div class="col-md-4">
+                <img src="https://pai.fit.uinsaid.ac.id/files/post/cover/international-public-lecture-and-welcoming-event-f-1757345524.jpeg" alt="International Public Lecture and Welcoming Event for New PAI Students at UIN Raden Mas Said Surakarta" class="w-100">
+            </div>
+                    </div>
+    </div>
+</div>
+    
+    
+    
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer">
+                <div class="col-md-5 mb-2">
+                    <div class="d-flex align-items-center">
+                        <div class="img">
+                            <img src="https://pai.fit.uinsaid.ac.id/files/icon-1678678276.png" class="">
+                        </div>
+                        <div class="ml-3 text-left">
+                            <p class="address text-light">Dusun IV, Pucangan, Kec. Kartasura, Kabupaten Sukoharjo, Jawa Tengah 57168</p>
+                            <div class="d-flex flex-column">
+                                                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <h3 class="text-light">Maps</h3>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1313148595714!2d110.73506781875977!3d-7.560658449641205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a14e7fce6e703%3A0xfeffc352fe7f2bc3!2sGedung%20PPG%20UIN%20RMS%20Surakarta!5e0!3m2!1sid!2sid!4v1677830244252!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                <div class="col-md-3">
+                    <h3 class="text-light">Ikuti Kami di</h3>
+                    <div class="d-flex flex-column">
+                                                <a class="mb-1" href="https://www.youtube.com/@prodipaiuinradenmassaidsur2726"><i class="fab fa-youtube"></i> Youtube PAI</a>
+                                                <a class="mb-1" href="mailto: pai.fit@uinsaid.ac.id"><i class="far fa-envelope"></i> pai.fit@uinsaid.ac.id</a>
+                                            </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-light copyright">© 2025 Prodi Pendidikan Agama Islam</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script type="text/javascript" src="https://pai.fit.uinsaid.ac.id/js/script.js?ver=1759478623"></script>
+    <script>
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    </script>
+    </body>
+
+</html>
