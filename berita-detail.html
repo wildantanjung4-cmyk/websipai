@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Detail Berita</title>
+</head>
+<body>
+  <div id="detail-berita"></div>
+
+  <script src="berita-data.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = parseInt(params.get("id"));
+
+    const berita = beritaList.find(item => item.id === id);
+    const container = document.getElementById("detail-berita");
+
+    if (berita) {
+      container.innerHTML = `
+        <h1>${berita.judul}</h1>
+        <p><em>${berita.tanggal}</em></p>
+        <img src="${berita.gambar}" alt="${berita.judul}" width="400" />
+        <p>${berita.deskripsi}</p>
+        <a href="${berita.link}" target="_blank">Baca sumber asli</a>
+      `;
+    } else {
+      container.innerHTML = "<p>Berita tidak ditemukan.</p>";
+    }
+  </script>
+</body>
+</html>
