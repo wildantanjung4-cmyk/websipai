@@ -669,6 +669,7 @@ nav ul {
   padding: 0 32px;
   min-height: 70px;
   width: 100%;
+  max-width: 1200px;
 }
 na ul li {
   display: flex;
@@ -822,6 +823,7 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -905,6 +907,7 @@ nav ul li a:hover {
   width: 100%;
   height: 200px;
 }
+
 
 
 
