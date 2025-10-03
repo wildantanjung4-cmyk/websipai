@@ -910,6 +910,109 @@ nav ul li a:hover {
 
 
 
+/* Pengaturan Detail Berita */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  color: #333;
+  background-color: #f9f9fb;
+  padding: 20px;
+}
+
+/* Container utama */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* Breadcrumb */
+.bc {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bc a {
+  text-decoration: none;
+  color: #0077b6;
+  margin-right: 8px;
+  transition: color 0.3s;
+}
+
+.bc a:hover {
+  color: #023e8a;
+}
+
+.bc .active {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Detail post */
+.detail-post span {
+  display: block;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.detail-post h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Layout row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Kolom teks */
+.col-md-8 {
+  flex: 1 1 65%;
+}
+
+/* Kolom gambar */
+.col-md-4 {
+  flex: 1 1 30%;
+}
+
+.col-md-4 img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Paragraf */
+p {
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+/* Responsif untuk tablet/HP */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .col-md-8, .col-md-4 {
+    flex: 1 1 100%;
+  }
+  .detail-post h1 {
+    font-size: 22px;
+  }
+}
+
 
 
 
