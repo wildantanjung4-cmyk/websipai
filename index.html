@@ -180,34 +180,30 @@
   
 <!-- Scripts -->
   <script src="berita-data.js"></script>
-  <script>
-    // Script untuk Render Berita (dengan fallback)
-    document.addEventListener('DOMContentLoaded', function() {
-      var grid = document.getElementById('berita-terbaru-grid');
-      if (grid && typeof beritaList !== 'undefined' && beritaList.length > 0) {
-        let html = '';
-        beritaList.slice(0, 4).forEach(function(berita) {
-          html += `
-            <div class="berita-card">
-              <img src="${berita.gambar}" alt="Gambar Berita: ${berita.judul}" class="berita-img" loading="lazy">
-              <div class="berita-card-content">
-                <span class="berita-date">${berita.tanggal}</span>
-                <h3 class="berita-card-title">${berita.judul}</h3>
-                <p class="berita-card-desc">${berita.deskripsi}</p>
-                <a href="${berita.link}" class="berita-link">Baca Selengkapnya</a>
-              </div>
-            </div>
+<script>
+// Render berita terbaru otomatis di index.html
+document.addEventListener('DOMContentLoaded', function() {
+  var grid = document.getElementById('berita-terbaru-grid');
+  if (grid && typeof beritaList !== 'undefined') {
+    let html = '';
+    // Tampilkan maksimal 4 berita terbaru
+    beritaList.slice(0,4).forEach(function(berita) {
+      html += `
+        <div class="berita-card">
+          <img src="${berita.gambar}" alt="Gambar Berita" class="berita-img">
+          <div class="berita-card-content">
+            <span class="berita-date">${berita.tanggal}</span>
+            <h3 class="berita-card-title">${berita.judul}</h3>
+            <p class="berita-card-desc">${berita.deskripsi}</p>
+            <a href="${berita.link}" class="berita-link">Baca Selengkapnya</a>
+          </div>
+        </div>
       `;
-        });
-        grid.innerHTML = html;
-      } else {
-        grid.innerHTML = '<p style="text-align: center; color: #666; grid-column: 1 / -1;">Tidak ada berita terbaru saat ini. Silakan cek halaman Berita lengkap.</p>';
-      }
     });
-    // Script Sederhana untuk Slider (next/prev dan auto-play dasar)
-    document.addEventListener('DOMContentLoaded', function() {
-      const slides = document.querySelectorAll('.slide');
-      const prevBtn = document.getElementById('prev');
+    grid.innerHTML = html;
+  }
+});
+</script>
 </body>
 </html>
 
