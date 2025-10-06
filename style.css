@@ -1,142 +1,140 @@
-/* Skripsi Guide Card Styles */
-.skripsi-guide-section {
-  max-width: 700px;
-  margin: 38px auto 32px auto;
-  padding: 0 16px;
-}
-.skripsi-guide-card {
-  display: flex;
-  align-items: center;
-  background: linear-gradient(120deg, #eaf3ff 0%, #f8faff 60%, #eaf3ff 100%);
-  border-radius: 22px;
-  box-shadow: 0 6px 32px rgba(30,95,168,0.10);
-  padding: 32px 28px 32px 28px;
-  margin-bottom: 18px;
-  transition: box-shadow 0.18s, transform 0.18s;
-  position: relative;
-  overflow: hidden;
-}
-.skripsi-guide-card:hover {
-  box-shadow: 0 12px 40px rgba(30,95,168,0.18);
-  transform: translateY(-4px) scale(1.02);
-}
-.skripsi-guide-icon {
-  flex: 0 0 64px;
-  width: 64px;
-  height: 64px;
-  background: linear-gradient(135deg, #2d7cff 60%, #aee2ff 100%);
-  border-radius: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 28px;
-  box-shadow: 0 2px 12px rgba(30,95,168,0.10);
-  animation: skripsiGuideIconPop 1.2s cubic-bezier(.77,0,.18,1);
-}
-@keyframes skripsiGuideIconPop {
-  0% { transform: scale(0.7); opacity: 0; }
-  60% { transform: scale(1.1); opacity: 1; }
-  100% { transform: scale(1); opacity: 1; }
-}
-.skripsi-guide-content {
-  flex: 1;
-}
-.skripsi-guide-title {
-  font-size: 1.45rem;
-  font-weight: 700;
-  color: #1e5fa8;
-  margin-bottom: 8px;
-  letter-spacing: 0.5px;
-}
-.skripsi-guide-desc {
-  color: #2d3a4a;
-  font-size: 1.08rem;
-  margin-bottom: 18px;
-}
-.skripsi-guide-btn {
-  display: inline-block;
-  background: linear-gradient(90deg, #2d7cff 70%, #1e5fa8 100%);
-  color: #fff;
-  padding: 12px 32px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.08rem;
-  box-shadow: 0 2px 8px rgba(30,95,168,0.10);
-  transition: background 0.18s, transform 0.18s;
-  letter-spacing: 0.5px;
-}
-.skripsi-guide-btn:hover {
-  background: linear-gradient(90deg, #1e5fa8 70%, #2d7cff 100%);
-  color: #fff;
-  transform: scale(1.06);
-}
-@media (max-width: 600px) {
-  .skripsi-guide-card {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 22px 12px 22px 12px;
-  }
-  .skripsi-guide-icon {
-    margin-right: 0;
-    margin-bottom: 16px;
-  }
-}
 /* Menu eksternal di header bayangan */
-.header-menu-eksternal {
-  display: flex;
-  gap: 16px;
-  margin-left: 32px;
-}
-.header-menu-eksternal a {
-  color: #a80000;
-  font-weight: 500;
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 2px 10px;
-  border-radius: 6px;
-  transition: background 0.18s, color 0.18s;
-}
-.header-menu-eksternal a:hover {
-  background: #ffeaea;
-  color: #c80000;
-}
-
-/* Header bayangan di atas header utama */
+/* Header Shadow Responsif - Base (untuk desktop) */
 .header-shadow {
-  width: 100%;
-  background: linear-gradient(90deg, #fff2f2 0%, #ffeaea 100%);
-  box-shadow: 0 2px 8px rgba(200,0,0,0.08);
-  padding: 0;
+  background: rgba(200, 0, 0, 0.92);
+  padding: 8px 0;
+  position: sticky; /* Atau fixed jika ingin selalu di atas */
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .header-shadow-content {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 24px 6px 24px;
-  font-size: 1rem;
+  gap: 20px; /* Ruang antar elemen */
+}
+.header-menu-eksternal {
+  display: flex;
+  gap: 12px;
+  flex: 1; /* Ambil ruang lebih */
+}
+.header-menu-eksternal a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s;
+  white-space: nowrap; /* Cegah teks wrap */
+}
+.header-menu-eksternal a:hover {
+  background: rgba(255,255,255,0.1);
+}
+.header-contact {
+  flex: 0 0 auto; /* Jangan stretch */
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.header-sosmed {
+  display: flex;
+  gap: 8px;
+  flex: 0 0 auto;
 }
 .header-sosmed a {
-  margin: 0 auto;
-  display: inline;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
 }
 .header-sosmed img {
-  width: 22px;
-  height: 22px;
-  vertical-align: middle;
-  filter: drop-shadow(0 2px 6px rgba(200,0,0,0.10));
-  transition: transform 0.18s;
-}
-.header-sosmed a:hover img {
-  transform: scale(1.15);
+  width: 100%;
+  height: 100%;
+  filter: brightness(0) invert(1); /* Buat ikon putih untuk tema gelap */
 }
 
-html, body {
-  max-width: 100vw;
-  overflow-x: hidden;
+/* Responsif untuk Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+  .header-shadow-content {
+    gap: 12px;
+    padding: 0 12px;
+  }
+  .header-menu-eksternal {
+    gap: 8px;
+  }
+  .header-menu-eksternal a {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+  }
+  .header-contact {
+    font-size: 0.75rem;
+  }
+  .header-sosmed img {
+    width: 24px;
+    height: 24px;
+  }
 }
+
+/* Responsif untuk Mobile (di bawah 768px) */
+@media (max-width: 768px) {
+  .header-shadow {
+    padding: 6px 0; /* Kurangi padding vertikal */
+  }
+  .header-shadow-content {
+    flex-direction: column; /* Stack vertikal: Menu atas, kontak tengah, sosmed bawah */
+    gap: 8px;
+    align-items: stretch; /* Stretch penuh lebar */
+    padding: 0 8px;
+  }
+  .header-menu-eksternal {
+    flex-direction: row; /* Tetap horizontal, tapi scroll jika perlu */
+    overflow-x: auto; /* Scroll horizontal jika terlalu panjang */
+    gap: 6px;
+    padding: 4px 0;
+    -webkit-overflow-scrolling: touch; /* Smooth scroll di iOS */
+    scrollbar-width: thin; /* Hide scrollbar di Firefox */
+    scrollbar-color: transparent transparent;
+  }
+  .header-menu-eksternal::-webkit-scrollbar {
+    height: 2px; /* Thin scrollbar di Chrome/Safari */
+  }
+  .header-menu-eksternal::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.3);
+    border-radius: 1px;
+  }
+  .header-menu-eksternal a {
+    font-size: 0.75rem; /* Lebih kecil */
+    padding: 2px 6px;
+    min-width: fit-content; /* Jangan shrink terlalu */
+    flex-shrink: 0; /* Jangan shrink link */
+  }
+  .header-contact {
+    font-size: 0.7rem;
+    text-align: center;
+    order: 2; /* Kontak di tengah */
+    padding: 4px 0;
+  }
+  .header-sosmed {
+    order: 3; /* Sosmed di bawah */
+    justify-content: center; /* Center di mobile */
+    gap: 6px;
+  }
+  .header-sosmed a {
+    width: 24px;
+    height: 24px;
+  }
+  .header-sosmed img {
+    width: 20px;
+    height: 20px;
+  }
+}
+  /* .header-menu-eksternal { display: none; } */
+  /* Jika ingin sembunyikan: Uncomment baris di atas, dan tambah ikon hamburger untuk menu mobile terpisah */
+}
+
 
 /* Responsive YouTube video */
 .video-wrapper {
@@ -971,6 +969,90 @@ p {
   }
 }
 
+/* Skripsi Guide Card Styles */
+.skripsi-guide-section {
+  max-width: 700px;
+  margin: 38px auto 32px auto;
+  padding: 0 16px;
+}
+.skripsi-guide-card {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(120deg, #eaf3ff 0%, #f8faff 60%, #eaf3ff 100%);
+  border-radius: 22px;
+  box-shadow: 0 6px 32px rgba(30,95,168,0.10);
+  padding: 32px 28px 32px 28px;
+  margin-bottom: 18px;
+  transition: box-shadow 0.18s, transform 0.18s;
+  position: relative;
+  overflow: hidden;
+}
+.skripsi-guide-card:hover {
+  box-shadow: 0 12px 40px rgba(30,95,168,0.18);
+  transform: translateY(-4px) scale(1.02);
+}
+.skripsi-guide-icon {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #2d7cff 60%, #aee2ff 100%);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 28px;
+  box-shadow: 0 2px 12px rgba(30,95,168,0.10);
+  animation: skripsiGuideIconPop 1.2s cubic-bezier(.77,0,.18,1);
+}
+@keyframes skripsiGuideIconPop {
+  0% { transform: scale(0.7); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.skripsi-guide-content {
+  flex: 1;
+}
+.skripsi-guide-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #1e5fa8;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+.skripsi-guide-desc {
+  color: #2d3a4a;
+  font-size: 1.08rem;
+  margin-bottom: 18px;
+}
+.skripsi-guide-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #2d7cff 70%, #1e5fa8 100%);
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.08rem;
+  box-shadow: 0 2px 8px rgba(30,95,168,0.10);
+  transition: background 0.18s, transform 0.18s;
+  letter-spacing: 0.5px;
+}
+.skripsi-guide-btn:hover {
+  background: linear-gradient(90deg, #1e5fa8 70%, #2d7cff 100%);
+  color: #fff;
+  transform: scale(1.06);
+}
+@media (max-width: 600px) {
+  .skripsi-guide-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 12px 22px 12px;
+  }
+  .skripsi-guide-icon {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
 
 
 
