@@ -118,14 +118,8 @@
   padding: 8px 24px 6px 24px;
   font-size: 1rem;
 }
-.header-contact span {
-  margin-right: 18px;
-  color: #a80000;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
 .header-sosmed a {
-  margin-left: 10px;
+  margin: 0 auto;
   display: inline;
 }
 .header-sosmed img {
@@ -976,6 +970,7 @@ p {
     font-size: 22px;
   }
 }
+
 
 
 
