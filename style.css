@@ -126,7 +126,7 @@
 }
 .header-sosmed a {
   margin-left: 10px;
-  display: right;
+  display: in-line;
 }
 .header-sosmed img {
   width: 22px;
@@ -1019,6 +1019,7 @@ p {
     font-size: 22px;
   }
 }
+
 
 
 
