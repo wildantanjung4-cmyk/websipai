@@ -86,4 +86,44 @@ next.addEventListener('click', () => showSlide(1));
 // Auto play setiap 5 detik
 setInterval(() => showSlide(1), 5000);
 
+<script>
+function toggleNav() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+// Fungsi untuk toggle submenu (untuk mobile)
+function toggleDropdown(event, submenuId) {
+  event.preventDefault(); // Cegah default link
+  var submenu = document.getElementById(submenuId);
+  if (submenu.classList.contains('active')) {
+    submenu.classList.remove('active');
+  } else {
+    // Tutup submenu lain jika ada
+    var allSubmenus = document.querySelectorAll('.dropdown-submenu');
+    allSubmenus.forEach(function(s) {
+      s.classList.remove('active');
+    });
+    submenu.classList.add('active');
+  }
+}
+
+// Tutup menu jika klik di luar (opsional, untuk UX lebih baik)
+window.onclick = function(event) {
+  if (!event.target.matches('.icon') && !event.target.matches('.dropdown-toggle') && !event.target.closest('#myLinks')) {
+    var myLinks = document.getElementById("myLinks");
+    if (myLinks.style.display === "block") {
+      myLinks.style.display = "none";
+    }
+    var allSubmenus = document.querySelectorAll('.dropdown-submenu');
+    allSubmenus.forEach(function(s) {
+      s.classList.remove('active');
+    });
+  }
+}
+</script>
 
