@@ -971,3 +971,198 @@ p {
   }
 }
 
+/* Hamburger Menu Styles (Topnav untuk Mobile) */
+.topnav {
+  overflow: hidden;
+  background-color: #c80000; /* Background merah tema situs */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.topnav a.logo-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.topnav .logo-kampus {
+  height: 40px; /* Ukuran logo di mobile */
+  width: auto;
+  margin-right: 8px;
+}
+.topnav #myLinks {
+  display: none; /* Hidden by default di mobile */
+  background-color: #a80000; /* Background submenu lebih gelap */
+  width: 100%;
+  position: absolute;
+  top: 100%; /* Di bawah topnav */
+  left: 0;
+  z-index: 1000;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.topnav #myLinks a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  transition: background 0.2s;
+}
+.topnav #myLinks a:hover {
+  background-color: #d80000; /* Hover merah lebih terang */
+}
+.topnav .icon {
+  display: block; /* Tampil di mobile */
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.topnav .icon:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* Dropdown Submenu untuk Mobile (nested) */
+.dropdown-toggle {
+  cursor: pointer;
+  position: relative;
+}
+.dropdown-submenu {
+  display: none; /* Hidden by default */
+  background-color: #900000; /* Lebih gelap lagi untuk sub-level */
+  max-height: 0; /* Animasi slide-down */
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.dropdown-submenu a {
+  padding-left: 32px; /* Indent sub-menu */
+  font-size: 0.95rem;
+  border-bottom: none; /* Hilangkan border di sub */
+}
+.dropdown-submenu.active {
+  display: block;
+  max-height: 500px; /* Cukup untuk semua sub-items */
+}
+
+/* Desktop Nav (hidden di mobile) */
+.desktop-nav {
+  display: flex; /* Tampil di desktop */
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 0;
+}
+.desktop-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.desktop-nav li {
+  position: relative;
+  margin: 0 8px;
+}
+.desktop-nav a.dropbtn {
+  padding: 12px 16px;
+  color: #c80000;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+}
+.desktop-nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background: #fff;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1001;
+  top: 100%;
+  left: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.desktop-nav .dropdown:hover .dropdown-content {
+  display: block; /* Hover untuk desktop */
+}
+.desktop-nav .dropdown-content a {
+  color: #333;
+  padding: 10px 16px;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+.desktop-nav .dropdown-content a:hover {
+  background: #f8f8f8;
+  color: #c80000;
+}
+.desktop-nav .logo-kampus {
+  height: 50px; /* Lebih besar di desktop */
+  margin-right: 20px;
+}
+
+/* Header Shadow (sembunyikan di mobile) */
+.header-shadow {
+  display: block; /* Tampil di desktop */
+}
+
+/* Responsif: Mobile First (<768px) */
+@media (max-width: 768px) {
+  .topnav #myLinks {
+    display: none; /* Toggle via JS */
+  }
+  .topnav #myLinks.active {
+    display: flex; /* Tampil saat toggle */
+  }
+  .topnav .icon {
+    display: block;
+  }
+  .desktop-nav {
+    display: none; /* Sembunyikan desktop nav di mobile */
+  }
+  .header-shadow {
+    display: none; /* Sembunyikan shadow di mobile untuk simplifikasi */
+  }
+  .topnav .logo-kampus {
+    height: 35px; /* Lebih kecil di mobile kecil */
+  }
+}
+
+/* Responsif: Desktop (>768px) */
+@media (min-width: 769px) {
+  .topnav {
+    display: none; /* Sembunyikan hamburger di desktop */
+  }
+  .desktop-nav {
+    display: flex;
+  }
+  .header-shadow {
+    display: block;
+  }
+  /* Integrasikan logo ke desktop-nav jika perlu, tapi sudah ada di topnav fallback */
+}
+
+/* Perbaikan untuk Logo di Desktop (jika topnav hidden) */
+@media (min-width: 769px) {
+  .desktop-nav ul::before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://irw51owxi5vo3sjd.public.blob.vercel-storage.com/asset-general/logo-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+  }
+}
+
