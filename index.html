@@ -10,7 +10,114 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<!-- Header Shadow dengan Menu Eksternal dan Sosmed (hanya tampil di desktop) -->
+<body>        
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2 class="berita-title">Selamat Datang</h2>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/MKhZ1_2q9TU" 
+                title="Profil Program Studi Pendidikan Agama Islam (PAI) UIN Fatmawati Sukarno Bengkulu" 
+                frameborder="0" 
+                allowfullscreen 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                loading="lazy">
+        </iframe>
+      </div>
+    </section>
+    
+    <!-- Berita Section dengan Fallback -->
+    <section class="berita">
+      <h2 class="berita-title">Berita Terbaru</h2>
+      <div class="berita-grid" id="berita-terbaru-grid">
+        <!-- Fallback jika JS gagal -->
+        <p style="text-align: center; color: #666; grid-column: 1 / -1;">Loading berita terbaru...</p>
+      </div>
+    </section>
+    
+  <!-- Slider Section -->
+    <section class="slider-section">
+      <div class="slider" id="slider">
+        <h2 class="slider-title">Etika Mahasiswa</h2>
+        <div class="slides">
+          <img src="https://picsum.photos/id/1015/700/400" alt="Ilustrasi Etika Mahasiswa 1" class="slide active" loading="lazy">
+          <img src="https://picsum.photos/id/1016/700/400" alt="Ilustrasi Etika Mahasiswa 2" class="slide" loading="lazy">
+          <img src="https://picsum.photos/id/1018/700/400" alt="Ilustrasi Etika Mahasiswa 3" class="slide" loading="lazy">
+        </div>
+        <div class="slider-buttons">
+          <button class="slider-btn" id="prev">&#10094;</button>
+          <button class="slider-btn" id="next">&#10095;</button>
+        </div>
+      </div>
+    </section>
+  </main>
+   
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Pendidikan Agama Islam</h3>
+        <p>UIN Fatmawati Sukarno Bengkulu</p>
+      </div>
+      <div class="footer-contact">
+        <h4>Kontak</h4>
+        <p>Jl. Raden Fatah Pagar Dewa Selebar Kota Bengkulu 38382</p>
+        <p>Telp: 082269996601</p>
+        <p>Email: pai@mail.uinfasbengkulu.ac.id</p>
+      </div>
+    <div class="footer-links">
+        <h4>Link Terkait</h4>
+        <ul>
+          <li><a href="https://uinfasbengkulu.ac.id" target="_blank" rel="noopener noreferrer">UIN Fatmawati Sukarno Bengkulu</a></li>
+          <li><a href="https://websipai.vercel.app" target="_blank" rel="noopener noreferrer">PAI UIN Fatmawati Sukarno Bengkulu</a></li>
+          <li><a href="https://ftt.uinfasbengkulu.ac.id" target="_blank" rel="noopener noreferrer">Fakultas Tarbiyah dan Tadris</a></li>
+        </ul>
+      </div>
+      <div class="footer-maps">
+        <h4>Lokasi Kampus</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.393964813514!2d102.3232301!3d-3.8372119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e36bbf998c583cf%3A0x12a510e47701a356!2sFakultas%20Tarbiyah%20%26%20Tadris!5e0!3m2!1sid!2sid!4v1696080000000!5m2!1sid!2sid" 
+                width="100" 
+                height="200" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  <div class="footer-bottom">
+      <p>© 2024 Pendidikan Agama Islam UIN Fatmawati Sukarno Bengkulu. Designed by Wildan Murtadho.</p>
+    </div>
+  </footer>
+  
+<!-- Scripts -->
+  <script src="berita-data.js"></script>
+<script>
+// Render berita terbaru otomatis di index.html
+document.addEventListener('DOMContentLoaded', function() {
+  var grid = document.getElementById('berita-terbaru-grid');
+  if (grid && typeof beritaList !== 'undefined') {
+    let html = '';
+    // Tampilkan maksimal 4 berita terbaru
+    beritaList.slice(0,4).forEach(function(berita) {
+      html += `
+        <div class="berita-card">
+          <img src="${berita.gambar}" alt="Gambar Berita" class="berita-img">
+          <div class="berita-card-content">
+            <span class="berita-date">${berita.tanggal}</span>
+            <h3 class="berita-card-title">${berita.judul}</h3>
+            <p class="berita-card-desc">${berita.deskripsi}</p>
+            <a href="${berita.link}" class="berita-link">Baca Selengkapnya</a>
+          </div>
+        </div>
+      `;
+    });
+    grid.innerHTML = html;
+  }
+});
+</script>
+
+  <!-- Header Shadow dengan Menu Eksternal dan Sosmed (hanya tampil di desktop) -->
 <div class="header-shadow">
   <div class="header-shadow-content">
     <div class="header-menu-eksternal">
@@ -177,113 +284,7 @@
       <li><a href="media-sosial.html">Media Sosial</a></li>
     </ul>
   </nav>
-</header>        
-  </body>
-  <main>
-    <!-- Hero Section -->
-    <section class="hero">
-      <h2 class="berita-title">Selamat Datang</h2>
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/MKhZ1_2q9TU" 
-                title="Profil Program Studi Pendidikan Agama Islam (PAI) UIN Fatmawati Sukarno Bengkulu" 
-                frameborder="0" 
-                allowfullscreen 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                loading="lazy">
-        </iframe>
-      </div>
-    </section>
-    
-    <!-- Berita Section dengan Fallback -->
-    <section class="berita">
-      <h2 class="berita-title">Berita Terbaru</h2>
-      <div class="berita-grid" id="berita-terbaru-grid">
-        <!-- Fallback jika JS gagal -->
-        <p style="text-align: center; color: #666; grid-column: 1 / -1;">Loading berita terbaru...</p>
-      </div>
-    </section>
-    
-  <!-- Slider Section -->
-    <section class="slider-section">
-      <div class="slider" id="slider">
-        <h2 class="slider-title">Etika Mahasiswa</h2>
-        <div class="slides">
-          <img src="https://picsum.photos/id/1015/700/400" alt="Ilustrasi Etika Mahasiswa 1" class="slide active" loading="lazy">
-          <img src="https://picsum.photos/id/1016/700/400" alt="Ilustrasi Etika Mahasiswa 2" class="slide" loading="lazy">
-          <img src="https://picsum.photos/id/1018/700/400" alt="Ilustrasi Etika Mahasiswa 3" class="slide" loading="lazy">
-        </div>
-        <div class="slider-buttons">
-          <button class="slider-btn" id="prev">&#10094;</button>
-          <button class="slider-btn" id="next">&#10095;</button>
-        </div>
-      </div>
-    </section>
-  </main>
-   
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-about">
-        <h3>Pendidikan Agama Islam</h3>
-        <p>UIN Fatmawati Sukarno Bengkulu</p>
-      </div>
-      <div class="footer-contact">
-        <h4>Kontak</h4>
-        <p>Jl. Raden Fatah Pagar Dewa Selebar Kota Bengkulu 38382</p>
-        <p>Telp: 082269996601</p>
-        <p>Email: pai@mail.uinfasbengkulu.ac.id</p>
-      </div>
-    <div class="footer-links">
-        <h4>Link Terkait</h4>
-        <ul>
-          <li><a href="https://uinfasbengkulu.ac.id" target="_blank" rel="noopener noreferrer">UIN Fatmawati Sukarno Bengkulu</a></li>
-          <li><a href="https://websipai.vercel.app" target="_blank" rel="noopener noreferrer">PAI UIN Fatmawati Sukarno Bengkulu</a></li>
-          <li><a href="https://ftt.uinfasbengkulu.ac.id" target="_blank" rel="noopener noreferrer">Fakultas Tarbiyah dan Tadris</a></li>
-        </ul>
-      </div>
-      <div class="footer-maps">
-        <h4>Lokasi Kampus</h4>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.393964813514!2d102.3232301!3d-3.8372119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e36bbf998c583cf%3A0x12a510e47701a356!2sFakultas%20Tarbiyah%20%26%20Tadris!5e0!3m2!1sid!2sid!4v1696080000000!5m2!1sid!2sid" 
-                width="100" 
-                height="200" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </div>
-    </div>
-  <div class="footer-bottom">
-      <p>© 2024 Pendidikan Agama Islam UIN Fatmawati Sukarno Bengkulu. Designed by Wildan Murtadho.</p>
-    </div>
-  </footer>
-  
-<!-- Scripts -->
-  <script src="berita-data.js"></script>
-<script>
-// Render berita terbaru otomatis di index.html
-document.addEventListener('DOMContentLoaded', function() {
-  var grid = document.getElementById('berita-terbaru-grid');
-  if (grid && typeof beritaList !== 'undefined') {
-    let html = '';
-    // Tampilkan maksimal 4 berita terbaru
-    beritaList.slice(0,4).forEach(function(berita) {
-      html += `
-        <div class="berita-card">
-          <img src="${berita.gambar}" alt="Gambar Berita" class="berita-img">
-          <div class="berita-card-content">
-            <span class="berita-date">${berita.tanggal}</span>
-            <h3 class="berita-card-title">${berita.judul}</h3>
-            <p class="berita-card-desc">${berita.deskripsi}</p>
-            <a href="${berita.link}" class="berita-link">Baca Selengkapnya</a>
-          </div>
-        </div>
-      `;
-    });
-    grid.innerHTML = html;
-  }
-});
-</script>
+</header>
 </body>
 </html>
 
