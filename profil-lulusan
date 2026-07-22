@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index follow all">
+  <title>WEBSIPAI - Website Sistem Informasi Pendidikan Agama Islam</title>
+  <link rel="icon" type="image/x-icon" href="https://irw51owxi5vo3sjd.public.blob.vercel-storage.com/asset-general/LOGO%20UIN%20FATMAWATI%20SUKARNO%20BENGKULU.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Shadow dengan Menu Eksternal dan Sosmed (berdasarkan CSS) -->
+  <div class="header-shadow">
+    <div class="header-shadow-content">
+      <div class="header-menu-eksternal">
+        <a href="https://ftt.uinfasbengkulu.ac.id" target="_blank">WebFTT</a>
+        <a href="https://uinfasbengkulu.ac.id" target="_blank">UINFAS</a>
+        <a href="https://aak.uinfasbengkulu.ac.id/index.php/beasiswa/" target="_blank">Beasiswa</a>
+        <a href="https://www.uinfasbengkulu.ac.id/spmb/" target="_blank">Pendaftaran</a>
+        <a href="https://siakad.uinfasbengkulu.ac.id/" target="_blank">SIAKAD</a>
+        <a href="https://ejournal.uinfasbengkulu.ac.id/index.php/at-tarbawi" target="_blank">Jurnal Tarbawi</a>
+        <a href="https://bit.ly/tracerstudy_uinfasbkl_2023" target="_blank">Tracer Alumni</a>
+      <div class="header-sosmed">
+        <a href="https://www.instagram.com/paiuinfasbkl/" target="_blank" rel="noopener noreferrer" title="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Ikuti Instagram PAI UIN FAS Bengkulu" loading="lazy"></a>
+        <a href="https://www.facebook.com/paiuinfasbkl" target="_blank" rel="noopener noreferrer" title="Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Ikuti Facebook PAI UIN FAS Bengkulu" loading="lazy"></a> <!-- Perbaiki: Ganti TikTok icon jika href Facebook -->
+        <a href="https://www.youtube.com/@paiuinfasbkl" target="_blank" rel="noopener noreferrer" title="YouTube"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="Tonton YouTube PAI UIN FAS Bengkulu" loading="lazy"></a>
+      </div>
+    </div>
+  </div>
+    
+  <!-- Header Utama -->
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <img src="https://irw51owxi5vo3sjd.public.blob.vercel-storage.com/asset-general/logo-logo.png" alt="Logo Kampus" class="logo-kampus">
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn" aria-haspopup="true">Profil</a>
+          <div class="dropdown-content">
+            <a href="akreditasi.html">Akreditasi</a>
+            <a href="visi-misi-tujuan.html">Visi Misi dan Tujuan</a>
+            <a href="sejarah-singkat.html">Sejarah Singkat</a>
+            <a href="pengelola-prodi.html">Pengelola Prodi</a>
+            <a href="https://drive.google.com/drive/folders/1yB9BVzn99llTQLGS-eMcayBtzIQLExk3" target="_blank" rel="noopener noreferrer">Dosen</a>
+            <a href="https://docs.google.com/document/d/1puB3H_Is3QzVcuz6rDa1tf7t75vdNkz6/edit?tab=t.0" target="_blank" rel="noopener noreferrer">Profil Lulusan</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn" aria-haspopup="true">Akademik</a>
+          <div class="dropdown-content">
+            <a href="https://drive.google.com/file/d/139AHVjGzmCbmSE4ZMeux3h7x9w1TaIMB/view" target="_blank" rel="noopener noreferrer">Kurikulum</a>
+            <a href="#">Jadwal Kuliah (Segera)</a>
+            <a href="#">Body of Knowledge PAI (Segera)</a>
+            <a href="https://aak.uinfasbengkulu.ac.id/index.php/kalendek-akademik/" target="_blank" rel="noopener noreferrer">Kalender Akademik</a>
+            <a href="https://drive.google.com/file/d/1RwU8WvcQrkuGNGG4ThOJVi6FH4oHPHyP/view?usp=sharing" target="_blank" rel="noopener noreferrer">Microteaching</a>
+            <a href="https://docs.google.com/document/d/1WORc_KtTVaaX-GJnZiEcL71Qv5JSlde9/edit" target="_blank" rel="noopener noreferrer">Pengenalan Lapangan Pekerjaan (PLP)</a>
+            <a href="https://drive.google.com/file/d/1HqJyG1ucwuJm1HwpmD4uTYbid1aTrIhd/view?usp=sharing" target="_blank" rel="noopener noreferrer">Kuliah Kerja Nyata</a>
+            <a href="skripsi.html">Skripsi</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn" aria-haspopup="true">Kemahasiswaan</a>
+          <div class="dropdown-content">
+            <a href="#">Organisasi Mahasiswa (Segera)</a>
+            <a href="#">Kegiatan Ekstrakurikuler (Segera)</a>
+            <a href="#">Kesejahteraan Mahasiswa (Segera)</a>
+            <a href="#">Layanan Konseling (Segera)</a>
+            <a href="#">Klinik Mahasiswa (Segera)</a>
+            <a href="#">Prestasi Mahasiswa (Segera)</a>
+            <a href="#">Alumni PAI (Segera)</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn" aria-haspopup="true">Dokumentasi</a>
+          <div class="dropdown-content">
+            <a href="https://drive.google.com/file/d/1EGGP0RpjGD6jVD7qw2OTowbLAh-5kDPj/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Pedoman Akademik</a>
+            <a href="https://drive.google.com/file/d/1nc4exvFz2fV0lGuuuONs665ajkohvcXh/view" target="_blank" rel="noopener noreferrer">SOP</a>
+            <a href="#">Foto dan Video (Segera)</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn" aria-haspopup="true">File Lamdik</a>
+          <div class="dropdown-content">
+            <a href="https://ftt.uinfasbengkulu.ac.id/kebijakan/standar-1/" target="_blank" rel="noopener noreferrer">Kriteria 1</a>
+            <a href="https://ftt.uinfasbengkulu.ac.id/kebijakan/standar-2/" target="_blank" rel="noopener noreferrer">Kriteria 2</a>
+            <a href="https://ftt.uinfasbengkulu.ac.id/kebijakan/standar-3/" target="_blank" rel="noopener noreferrer">Kriteria 3</a>
+            <a href="https://ftt.uinfasbengkulu.ac.id/kebijakan/standar-4/" target="_blank" rel="noopener noreferrer">Kriteria 4</a>
+            <a href="https://ftt.uinfasbengkulu.ac.id/kebijakan/standar-5/" target="_blank" rel="noopener noreferrer">Kriteria 5</a>
+            <a href="https://ftt.uinfasbengkulu.ac.id/kebijakan/standar-6/" target="_blank" rel="noopener noreferrer">Kriteria 6</a>
+            <a href="https://ftt.uinfasbengkulu.ac.id/kebijakan/standar-7/" target="_blank" rel="noopener noreferrer">Kriteria 7</a>
+            <a href="https://ftt.uinfasbengkulu.ac.id/kebijakan/standar-8/" target="_blank" rel="noopener noreferrer">Kriteria 8</a>
+            <a href="https://ftt.uinfasbengkulu.ac.id/kebijakan/standar-9/" target="_blank" rel="noopener noreferrer">Kriteria 9</a>
+          </div>
+        </li>
+        <li><a href="berita.html">Berita</a></li>
+        <li><a href="media-sosial.html">Media Sosial</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <!-- Bagian Utama Profil Lulusan & CPL -->
+    <section class="academic-section">
+        <h2 class="section-title">Kurikulum Program Studi</h2>
+        <p class="section-subtitle">Pendidikan Agama Islam (PAI)</p>
+
+        <!-- BAGIAN 1: PROFIL LULUSAN -->
+        <div class="content-group">
+            <h3 class="group-heading">1. Profil Lulusan PAI</h3>
+            
+            <div class="profile-grid">
+                <!-- Profil 1 -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-number">01</div>
+                        <h3>Guru PAI</h3>
+                    </div>
+                    <p>Menjadi Guru PAI di Sekolah/Madrasah yang kompeten dan professional dalam membentuk siswa yang mandiri dan bertanggungjawab serta berakhlakul karimah.</p>
+                </div>
+
+                <!-- Profil 2 -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-number">02</div>
+                        <h3>Asisten Peneliti</h3>
+                    </div>
+                    <p>Menjadi Sarjana pendidikan yang memiliki kemampuan kerja, penguasaan pengetahuan, kemampuan manajerial dan tanggung jawab sebagai asisten peneliti dalam bidang Pendidikan Agama Islam yang berkepribadian baik, berpengetahuan luas dan mutakhir dibidangnya serta mampu melaksanakan tugas dan bertanggung jawab berlandaskan ajaran dan etika keislaman, keilmuan dan keahlian.</p>
+                </div>
+
+                <!-- Profil 3 -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-number">03</div>
+                        <h3>Edupreneur</h3>
+                    </div>
+                    <p>Menjadi Edupreneur yang kuat berbisnis dan memiliki kepekaan terhadap nilai-nilai dan kebutuhan pendidikan agama Islam sehingga dapat memajukan pendidikan agama Islam yang berdampak positif dalam masyarakat.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- BAGIAN 2: CAPAIAN PEMBELAJARAN LULUSAN -->
+        <div class="content-group">
+            <h3 class="group-heading">2. Capaian Pembelajaran Lulusan (Prodi) Pendidikan Agama Islam</h3>
+            
+            <div class="cpl-list-container">
+                <!-- Item CPL 1 -->
+                <div class="cpl-item">
+                    <div class="cpl-number">1</div>
+                    <p class="cpl-text">Menjelaskan konsep-konsep dasar agama Islam yang mencerminkan nilai-nilai religi, kemanusiaan, moral, dan etika secara mendalam dan jelas.</p>
+                </div>
+
+                <!-- Item CPL 2 -->
+                <div class="cpl-item">
+                    <div class="cpl-number">2</div>
+                    <p class="cpl-text">Memiliki kemampuan mengajar agama Islam yang efektif dan terukur yang mendorong siswa untuk mandiri, bertanggung jawab, dan berakhlakul karimah.</p>
+                </div>
+
+                <!-- Item CPL 3 -->
+                <div class="cpl-item">
+                    <div class="cpl-number">3</div>
+                    <p class="cpl-text">Merancang program pembelajaran agama Islam yang sesuai dengan kebutuhan siswa yang sesuai dengan karakteristik dan perkembangannya.</p>
+                </div>
+
+                <!-- Item CPL 4 -->
+                <div class="cpl-item">
+                    <div class="cpl-number">4</div>
+                    <p class="cpl-text">Memanfaatkan teknologi informasi dan komunikasi (TIK) dalam mengembangkan bahan ajar interaktif untuk mendukung pembelajaran agama Islam dengan tetap taat hukum dan disiplin dalam kehidupan pribadi, bermasyarakat, dan bernegara.</p>
+                </div>
+
+                <!-- Item CPL 5 -->
+                <div class="cpl-item">
+                    <div class="cpl-number">5</div>
+                    <p class="cpl-text">Menunjukkan sikap profesionalisme yang tinggi dalam memberikan pelayanan pendidikan agama Islam yang berkualitas kepada masyarakat dengan memberikan teladan (meneladani), mengambil hikmah, dan mendokumentasikan.</p>
+                </div>
+
+                <!-- Item CPL 6 -->
+                <div class="cpl-item">
+                    <div class="cpl-number">6</div>
+                    <p class="cpl-text">Memiliki kemampuan analisis yang mendalam dalam memahami permasalahan sosial dan kultural yang berkaitan dengan agama Islam dengan menghargai keanekaragaman budaya, pandangan, agama, dan kepercayaan.</p>
+                </div>
+
+                <!-- Item CPL 7 -->
+                <div class="cpl-item">
+                    <div class="cpl-number">7</div>
+                    <p class="cpl-text">Mengembangkan kurikulum agama Islam yang responsif terhadap dinamika sosial yang beragam dan kebutuhan masyarakat.</p>
+                </div>
+
+                <!-- Item CPL 8 -->
+                <div class="cpl-item">
+                    <div class="cpl-number">8</div>
+                    <p class="cpl-text">Memproduksi ilmu PAI dengan menerapkan pemikiran logis, kritis, dan sistematis serta bahasa yang ilmiah-komunikatif dengan menginternalisasikan nilai, norma, dan etika akademik.</p>
+                </div>
+
+                <!-- Item CPL 9 -->
+                <div class="cpl-item">
+                    <div class="cpl-number">9</div>
+                    <p class="cpl-text">Merancang edupreneurship dengan menginternalisasi semangat kemandirian, kejuangan, dan kewirausahaan dalam rangka memelihara dan mengembangkan jaringan kerja dengan pembimbing, kolega, sejawat di kancah nasional dan internasional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  </main>
+  <!-- HTML Footer -->
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Pendidikan Agama Islam</h3>
+      <p>UIN Fatmawati Sukarno Bengkulu</p>
+    </div>
+    <div class="footer-contact">
+      <h4>Kontak</h4>
+      <p>Jl. Raden Fatah Pagar Dewa Selebar Kota Bengkulu 38382</p>
+      <p>Telp: 082269996601</p>
+      <p>Email: pai@mail.uinfasbengkulu.ac.id</p>
+    </div>
+    <div class="footer-links">
+      <h4>Link Terkait</h4>
+      <ul>
+        <li><a href="https://uinfasbengkulu.ac.id" target="_blank" rel="noopener">UIN Fatmawati Sukarno Bengkulu</a></li>
+        <li><a href="https://pai.uinfasbengkulu.ac.id" target="_blank" rel="noopener">PAI UIN Fatmawati Sukarno Bengkulu</a></li>
+        <li><a href="https://ftt.uinfasbengkulu.ac.id" target="_blank" rel="noopener">Fakultas Tarbiyah dan Tadris</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Pendidikan Agama Islam UIN Fatmawati Sukarno Bengkulu. Designed by [Wildan Murtadho].</p>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
