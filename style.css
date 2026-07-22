@@ -1194,3 +1194,164 @@ p {
     margin-bottom: 1px; /* Lebih rapat di mobile kecil */
   }
 }
+  /* Bagian Profil Lulusan */
+/* --- Pengaturan Dasar & Variabel Warna --- */
+:root {
+    --primary-color: #0d5c75;
+    --secondary-color: #1982a1;
+    --accent-color: #f4a261;
+    --bg-color: #f8f9fa;
+    --text-dark: #2d3748;
+    --text-muted: #718096;
+    --white: #ffffff;
+    --border-color: #e2e8f0;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* --- Container Utama Bagian Akademik --- */
+.academic-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+.content-group {
+    margin-bottom: 60px;
+}
+
+.group-heading {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    border-left: 5px solid var(--accent-color);
+    padding-left: 12px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* --- Tampilan Profil Lulusan (Grid Cards) --- */
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.profile-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border-top: 4px solid var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-number {
+    background: var(--secondary-color);
+    color: var(--white);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.profile-card h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: var(--text-dark);
+}
+
+.profile-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin: 0;
+    flex-grow: 1;
+}
+
+/* --- Tampilan Capaian Pembelajaran Lulusan (List Modern) --- */
+.cpl-list-container {
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.cpl-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 25px;
+    border-bottom: 1px solid var(--border-color);
+    transition: var(--transition);
+}
+
+.cpl-item:last-child {
+    border-bottom: none;
+}
+
+.cpl-item:hover {
+    background-color: #f7fafc;
+}
+
+.cpl-number {
+    background: var(--primary-color);
+    color: var(--white);
+    min-width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.85rem;
+    margin-right: 20px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.cpl-text {
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    margin: 0;
+}
