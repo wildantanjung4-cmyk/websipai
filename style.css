@@ -44,6 +44,11 @@
   .skripsi-guide-content {
     margin-bottom: 25px; /* Sesuaikan angka ini sesuai kebutuhan (misal: 20px, 30px, dll) */
 }
+  /* Pembungkus utama agar rapi jika ingin diatur */
+.skripsi-guide-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Jarak otomatis antar kotak menggunakan Flexbox */
 }
 .skripsi-guide-title {
   font-size: 1.45rem;
