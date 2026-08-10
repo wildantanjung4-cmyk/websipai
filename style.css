@@ -40,6 +40,10 @@
 }
 .skripsi-guide-content {
   flex: 1;
+
+  .skripsi-guide-content {
+    margin-bottom: 25px; /* Sesuaikan angka ini sesuai kebutuhan (misal: 20px, 30px, dll) */
+}
 }
 .skripsi-guide-title {
   font-size: 1.45rem;
